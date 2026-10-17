@@ -1,0 +1,13 @@
+# Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+
+# OpenCLIP for ViT-B/32 backbone
+open-clip-torch>=2.20.0
+
+# Data processing
+numpy>=1.24.0
+pillow>=10.0.0
+
+# Progress bars
+tqdm>=4.65.0
