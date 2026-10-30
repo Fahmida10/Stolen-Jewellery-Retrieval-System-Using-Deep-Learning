@@ -6,8 +6,6 @@
 |---|---|
 | [Project Summary](#project-summary) | Overview of the project |
 | [Reading order](#reading-order-portfolio) | Numbered portfolio sections |
-| [Team Members](#team-members) | Roles  |
-| [Contribution Matrix](#contribution-matrix) | Link to matrix |
 | [Hosted deliverables](#hosted-deliverables-and-prototype-links) | Code, report, links |
 | [Portfolio Contents](#portfolio-contents) | All portfolio sections (table) |
 | [System Overview](#system-overview) | Flowchart image |
@@ -29,37 +27,11 @@ Read the portfolio **in numerical order** for a logical progression from **motiv
 4. [Implementation](pages/04_implementation.md)  
 5. [Results and evaluation](pages/05_results_and_evaluation.md)  
 6. [Management](pages/06_management.md)  
-7. [Meetings and review cycles](pages/07_meetings_and_review_cycles.md)  
-8. [Peer review and feedback](pages/08_feedback.md)  
-9. [Contributions](pages/09_contributions.md)  
-10. [Conclusion](pages/10_conclusion.md)  
-11. [Submission checklist](pages/11_checklist.md)
+7. [Meetings and review cycles](pages/07_meetings_and_review_cycles.md)   
+8. [Conclusion](pages/10_conclusion.md)  
+9. [Submission checklist](pages/11_checklist.md)
 
 **Hub with duplicate links:** [`pages/README.md`](pages/README.md).
-
-## Team Members
-
-| Name      | Role / Main Contribution |
-|-----------|-------------------------|
-| David | Project coordination, literature synthesis, report structuring and integration |
-| George | Data collection, dataset structuring, and preprocessing pipeline |
-| Ananna  | CNN models (ResNet18, VGG16, EfficientNet-B0), model training, and retrieval evaluation (joint responsibility with Abdi) |
-| Abdi  | OpenCLIP models (ViT-B/32, ViT-L/14), transformer pipeline, retrieval evaluation, and result interpretation (joint responsibility with Ananna) |
-| Laknath  | Discussion, ethics and limitations framing, future work, and portfolio preparation |
-
-
-
-## Contribution Matrix
-
-
-| Task / Output | David (20%) | George (15%) | Ananna (30%) | Abdi (20%) | Laknath (15%) |
-|---|---|---|---|---|---|
-| Literature synthesis | Lead | Co | Co | Co | Co |
-| Project management | Lead | Co | Co | Co | Co |
-| Experimental design (splits, preprocessing) | Co | Lead | Co | Co | Co |
-| Implementation (`code/01–06`) | Co | Co | Lead | Lead | Co |
-| Testing and evaluation | Co | Co | Lead | Lead | Co |
-| Documentation and portfolio | Co | Co | Lead | Co | Lead |
 
 ## Hosted deliverables and prototype links
 
@@ -129,12 +101,8 @@ If `origin` already exists: `git remote remove origin`, then `git remote add ori
 | 3 | [Methodology](pages/03_methodology.md) | Approach, tools, workflow, design, risks |
 | 4 | [Implementation](pages/04_implementation.md) | Architecture, code layout, evidence, provenance |
 | 5 | [Results and evaluation](pages/05_results_and_evaluation.md) | **Quantitative results**, protocol, limitations |
-| 6 | [Management](pages/06_management.md) | Timeline structure, tools, risk register |
-| 7 | [Meetings and review cycles](pages/07_meetings_and_review_cycles.md) | Meeting record and cyclical retrospective |
-| 8 | [Peer review and feedback](pages/08_feedback.md) | Internal review; slot for tutor feedback |
-| 9 | [Contributions](pages/09_contributions.md) | Contribution matrix |
-| 10 | [Conclusion](pages/10_conclusion.md) | Synthesis and future work pointers |
-| 11 | [Checklist](pages/11_checklist.md) | Pre-submission verification |
+| 6 | [Conclusion](pages/10_conclusion.md) | Synthesis and future work pointers |
+| 7 | [Checklist](pages/11_checklist.md) | Pre-submission verification |
 
 ## System Overview
 
@@ -148,8 +116,6 @@ Additional figures: [`images/architecture_diagram.png`](images/architecture_diag
 - [`images/`](images/) — figures; see [`images/README.md`](images/README.md).
 - [`documents/`](documents/) — technical report and notes; see [`documents/README.md`](documents/README.md).
 - [`code/`](code/) — source code; see [`code/README.md`](code/README.md).
-
-A **Gantt chart** summarizing the project timeline is provided [here](11_GanttChart.md).
 
 ## Notes
 
