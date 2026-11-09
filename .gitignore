@@ -1,1 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Generated artifacts (do not commit)
+checkpoints/
+results/
+embeddings/
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.pickle
+*.joblib
+*.safetensors
+*.bin
+*.onnx
+*.npy
+*.npz
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
 .DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Logs
+*.log
+logs/
+tensorboard/
+
+# LaTeX build outputs
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex*
+*.toc
